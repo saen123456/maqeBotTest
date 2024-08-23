@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "8f00d59b-c222-4bfe-98ef-30b3a6bdc06b",
+		"name": "maqeBotTest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17323719"
+	},
+	"item": [
+		{
+			"name": "getDirectionMaqeBot",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"command\": \"W5RW5RW2RW1R\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/maqebot/getDirectionMaqeBot",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"maqebot",
+						"getDirectionMaqeBot"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
